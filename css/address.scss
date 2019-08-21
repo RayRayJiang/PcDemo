@@ -1,0 +1,315 @@
+@import "reset.scss";
+$width: 1200px;
+.web {
+  width: 100%;
+  .logonav {
+    height: 130px;
+    width: $width;
+    margin: auto;
+    text-align: center;
+    .nav {
+      width: 100%;
+      height: 25px;
+      text-align: center;
+      line-height: 25px;
+      font-size: 15px;
+      padding-bottom: 17px;
+      li {
+        height: 25px;
+        float: left;
+        padding: 0 35px;
+        border-right: 1px solid rgb(165, 165, 165);
+        cursor: pointer;
+      }
+      li:hover {
+        font-weight: bolder;
+      }
+      .lastli {
+        border: none;
+        color: #996739;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.topbox {
+  width: 100%;
+  margin-top: 70px;
+  .addresstop {
+    width: $width;
+    margin: 0 auto;
+    padding-top: 15px;
+    h1 {
+      height: 30px;
+      padding: 15px 0;
+    }
+    p {
+      height: 15px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid rgb(202, 202, 202);
+    }
+  }
+}
+
+.midbox {
+  width: 100%;
+  .addressmid {
+    width: 1185px;
+    margin: 0 auto;
+    padding-left: 15px;
+    background-color: rgb(251, 251, 251);
+    border-bottom: 1px solid rgb(202, 202, 202);
+    ul {
+      width: $width;
+      height: 100px;
+      padding: 15px 0;
+      font-size: 13px;
+      .username {
+        width: $width;
+        height: 50px;
+        line-height: 50px;
+        .name {
+          float: left;
+          width: 70px;
+          font-size: 16px;
+          font-weight: bold;
+        }
+        .tel {
+          float: left;
+          width: 520px;
+        }
+        .addbtn {
+          float: left;
+          width: 200px;
+          height: 30px;
+          text-align: center;
+          line-height: 30px;
+          margin-top: 18px;
+          background-color: #eeae71;
+          border-radius: 3px;
+          cursor: pointer;
+          border: 1px solid rgb(192, 192, 192);
+        }
+      }
+      .usermsg {
+        width: $width;
+        height: 50px;
+        line-height: 50px;
+        p {
+          float: left;
+          width: 590px;
+        }
+        .bianji {
+          float: left;
+          width: 95px;
+          height: 20px;
+          font-size: 12px;
+          margin-top: 17px;
+          text-align: center;
+          line-height: 20px;
+          border-radius: 3px;
+          cursor: pointer;
+          background-color: rgb(228, 228, 228);
+        }
+        .del {
+          float: left;
+          width: 95px;
+          height: 20px;
+          font-size: 12px;
+          margin-left: 12px;
+          margin-top: 17px;
+          text-align: center;
+          line-height: 20px;
+          border-radius: 3px;
+          cursor: pointer;
+          background-color: rgb(228, 228, 228);
+        }
+      }
+    }
+  }
+}
+
+.botbox {
+  width: 100%;
+  padding: 40px 0;
+  .addressbot {
+    width: $width;
+    margin: 0 auto;
+    ul {
+      width: $width;
+      h1 {
+        padding-bottom: 10px;
+      }
+      li {
+        padding: 10px 0;
+        p {
+          height: 20px;
+          font-weight: bold;
+          font-size: 14px;
+          padding-bottom: 10px;
+        }
+        input {
+          height: 15px;
+          width: 450px;
+          padding: 5px 10px;
+        }
+        select {
+          width: 120px;
+          height: 30px;
+          margin-right: 15px;
+        }
+        .addressbtn {
+          width: 100px;
+          height: 30px;
+          margin-left: 370px;
+          background-color: #eeae71;
+          outline: none;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.footbox {
+  width: 100%;
+  background-color: #1e1e1e;
+  .foottop {
+    width: $width;
+    height: 351px;
+    margin: 0 auto;
+    border-bottom: 1px solid #666;
+    .footlist {
+      width: 100%;
+      height: 225px;
+      padding: 65px 0 0 0;
+      li {
+        width: 155px;
+        height: 194px;
+        margin-right: 45px;
+        float: left;
+        h4 {
+          width: 155px;
+          height: 57px;
+          padding: 0 0 12px;
+          font-size: 16px;
+          color: #fff;
+          border-bottom: 1px solid #666;
+        }
+        .txtlist {
+          width: 155px;
+          height: 100px;
+          margin-top: 15px;
+          li {
+            width: 155px;
+            height: 25px;
+            color: #8d8c8c;
+            font-size: 14px;
+            cursor: pointer;
+          }
+          li:hover {
+            color: #fff;
+          }
+        }
+        img {
+          margin-bottom: 20px;
+        }
+        p {
+          text-align: center;
+          line-height: 20px;
+          color: #fff;
+        }
+      }
+    }
+  }
+  .footshare {
+    width: $width;
+    height: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+    .sharebox {
+      width: 100%;
+      height: 44px;
+      margin-top: 28px;
+      color: #ccc;
+      span {
+        float: left;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      img {
+        float: left;
+        margin-left: 10px;
+        margin-right: 180px;
+      }
+      .dizhi {
+        height: 44px;
+        float: left;
+        margin-left: 50px;
+        p {
+          line-height: 20px;
+        }
+        span {
+          color: #f2f2f2;
+          font-size: 16px;
+          float: left;
+          margin-right: 10px;
+        }
+      }
+      .last {
+        float: right;
+        font-size: 16px;
+      }
+    }
+  }
+  .footlast {
+    width: 100%;
+    height: 54px;
+    background-color: #000;
+    .lastbox {
+      width: $width;
+      height: 54px;
+      margin: 0 auto;
+      color: #9999;
+      font-size: 14px;
+      line-height: 54px;
+      .lastleft {
+        float: left;
+      }
+      .lastright {
+        float: right;
+      }
+    }
+  }
+}
+
+.shadowbox {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  display: none;
+  .shadow {
+    width: 340px;
+    height: 100px;
+    padding: 50px 30px;
+    background-color: rgb(221, 221, 221);
+    position: absolute;
+    left: 505px;
+    top: 150px;
+    border-radius: 10px;
+    #shadowtxt {
+      text-align: center;
+      line-height: 20px;
+      font-size: 15px;
+    }
+    #shadowbtn {
+      width: 70px;
+      height: 30px;
+      margin-left: 250px;
+      margin-top: 70px;
+      background-color: rgb(182, 211, 250);
+    }
+  }
+}

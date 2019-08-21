@@ -1,0 +1,544 @@
+@charset "UTF-8";
+body, p, h1, h2, h3, h4, h5, h6, dl, ol, ul, dd, input, textarea {
+  padding: 0;
+  margin: 0; }
+
+img {
+  vertical-align: top;
+  border: 0; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+body {
+  font-family: "微软雅黑","宋体",Arial;
+  font-size: 12px;
+  color: #000; }
+
+input {
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit; }
+
+textarea {
+  resize: none; }
+
+input:focus, button:focus, textarea:focus, select:focus {
+  outline: none; }
+
+input[type="button"], input[type="reset"], input[type="submit"], input[type="radio"], input[type="checkbox"] {
+  cursor: pointer; }
+
+.sl {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.w {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.cl:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+.cl {
+  zoom: 1; }
+
+.loginhead {
+  width: 100%;
+  background-color: #121212; }
+  .loginhead .toplogin {
+    height: 33px;
+    width: 1200px;
+    margin: auto; }
+    .loginhead .toplogin .loginleft {
+      width: 33px;
+      height: 33px;
+      float: left; }
+    .loginhead .toplogin .logintxt {
+      width: 150px;
+      height: 33px;
+      color: #fff;
+      font-size: 16px;
+      text-align: center;
+      line-height: 33px;
+      float: left;
+      margin-left: 900px;
+      cursor: pointer; }
+    .loginhead .toplogin .loginright {
+      width: 90px;
+      height: 33px;
+      float: right;
+      line-height: 33px;
+      font-size: 14px;
+      color: #fff; }
+      .loginhead .toplogin .loginright .language {
+        float: left; }
+      .loginhead .toplogin .loginright .shopcartion {
+        height: 33px;
+        float: left;
+        margin-left: 15px; }
+        .loginhead .toplogin .loginright .shopcartion img {
+          width: 15px;
+          height: 15px;
+          margin-top: 8px; }
+
+.web {
+  width: 100%; }
+  .web .logonav {
+    height: 130px;
+    width: 1200px;
+    margin: auto;
+    text-align: center; }
+    .web .logonav .nav {
+      width: 100%;
+      height: 25px;
+      text-align: center;
+      line-height: 25px;
+      font-size: 15px;
+      padding-bottom: 17px; }
+      .web .logonav .nav li {
+        height: 25px;
+        float: left;
+        padding: 0 35px;
+        border-right: 1px solid #a5a5a5;
+        cursor: pointer; }
+      .web .logonav .nav li:hover {
+        font-weight: bolder; }
+      .web .logonav .nav .lastli {
+        border: none;
+        color: #996739;
+        font-weight: bold; }
+
+.banner {
+  width: 100%;
+  height: 620px;
+  margin-top: 50px;
+  text-align: center;
+  position: relative; }
+  .banner .lunbo {
+    width: 100% x;
+    position: absolute; }
+    .banner .lunbo li {
+      width: 1349px;
+      height: 620px;
+      overflow: hidden;
+      position: absolute;
+      display: none; }
+      .banner .lunbo li img {
+        width: 1900px;
+        height: 620px;
+        position: absolute;
+        left: 50%;
+        margin-left: -950px; }
+    .banner .lunbo li.active {
+      display: block; }
+  .banner .smallbtn {
+    width: 265px;
+    height: 20px;
+    position: absolute;
+    bottom: 20px;
+    left: 575px; }
+    .banner .smallbtn li {
+      height: 15px;
+      width: 15px;
+      float: left;
+      margin-left: 20px;
+      border-radius: 50%;
+      background-color: #fff; }
+    .banner .smallbtn li.active {
+      background-color: #b47808; }
+
+.module {
+  width: 100%;
+  text-align: center;
+  padding: 45px 0;
+  background-color: #f3f3f3; }
+  .module h2 {
+    font-size: 35px; }
+  .module p {
+    font-size: 14px;
+    padding: 12px 0 24px; }
+  .module .chanpin {
+    font-size: 24px; }
+
+.callection {
+  width: 100%;
+  text-align: center;
+  background-color: #f3f3f3;
+  padding-bottom: 100px; }
+  .callection .clearfix {
+    width: 1200px;
+    height: 492px;
+    background-color: #f3f3f3;
+    margin: 0 auto; }
+    .callection .clearfix li {
+      width: 372px;
+      height: 100%;
+      background-color: #fff;
+      float: left; }
+      .callection .clearfix li .limg {
+        width: 372px;
+        height: 245px;
+        overflow: hidden; }
+        .callection .clearfix li .limg img {
+          width: 100%;
+          height: 100%; }
+        .callection .clearfix li .limg .lilogo {
+          width: 372px;
+          height: 115px;
+          text-align: center;
+          padding: 3px 0; }
+          .callection .clearfix li .limg .lilogo img {
+            width: 140px;
+            height: 105px; }
+      .callection .clearfix li .limg:hover img {
+        transform: scale(1.2); }
+      .callection .clearfix li p {
+        width: 270px;
+        margin-left: 50px;
+        line-height: 24px; }
+      .callection .clearfix li .morebtn {
+        width: 95px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 14px;
+        margin: 25px 137px;
+        border: 1px solid #ccc;
+        cursor: pointer; }
+      .callection .clearfix li .morebtn:hover {
+        background-color: #000;
+        color: #fff; }
+    .callection .clearfix .midli {
+      margin: 0 42px; }
+
+.brandmodule {
+  width: 1349px; }
+  .brandmodule .bmleft {
+    width: 50%;
+    height: 355px;
+    float: left;
+    background: url(../imges/img16.jpg) repeat;
+    background-size: 674px 355px;
+    text-align: center; }
+    .brandmodule .bmleft .lefttxt {
+      width: 370px;
+      height: 225px;
+      margin: 60px 50px 60px 250px; }
+      .brandmodule .bmleft .lefttxt h2 {
+        font-size: 35px;
+        color: #fff; }
+      .brandmodule .bmleft .lefttxt h4 {
+        padding: 12px 0 24px;
+        font-size: 24px;
+        color: #fff; }
+      .brandmodule .bmleft .lefttxt p {
+        line-height: 24px;
+        font-size: 14px;
+        color: #979797; }
+      .brandmodule .bmleft .lefttxt .leftbtn {
+        width: 95px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 14px;
+        color: #fff;
+        margin: 25px 137px;
+        border: 1px solid #fff;
+        cursor: pointer; }
+      .brandmodule .bmleft .lefttxt .leftbtn:hover {
+        color: #f7d648;
+        border: 1px solid #f7d648; }
+  .brandmodule .bmright {
+    width: 50%;
+    height: 355px;
+    float: left;
+    background: url(../imges/img17.jpg) repeat;
+    background-size: 674px 355px;
+    text-align: center; }
+    .brandmodule .bmright .righttxt {
+      width: 370px;
+      height: 225px;
+      margin: 60px 250px 60px 50px; }
+      .brandmodule .bmright .righttxt h2 {
+        font-size: 35px;
+        color: #fff; }
+      .brandmodule .bmright .righttxt h4 {
+        padding: 12px 0 24px;
+        font-size: 24px;
+        color: #fff; }
+      .brandmodule .bmright .righttxt p {
+        line-height: 24px;
+        font-size: 14px;
+        color: #a7a7a7; }
+      .brandmodule .bmright .righttxt .rightbtn {
+        width: 95px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 14px;
+        color: #fff;
+        margin: 25px 137px;
+        border: 1px solid #fff;
+        cursor: pointer; }
+      .brandmodule .bmright .righttxt .rightbtn:hover {
+        color: #f7d648;
+        border: 1px solid #f7d648; }
+
+.wrist {
+  width: 100%;
+  text-align: center;
+  padding: 45px 0;
+  background-color: #f3f3f3; }
+  .wrist h2 {
+    font-size: 35px; }
+  .wrist p {
+    font-size: 14px;
+    padding: 12px 0 24px; }
+  .wrist .chanpin {
+    font-size: 24px; }
+
+.wristlist {
+  width: 100%;
+  background-color: #f3f3f3; }
+  .wristlist .wristchange {
+    width: 360px;
+    height: 35px;
+    margin: 0 auto;
+    margin-bottom: 50px; }
+    .wristlist .wristchange li {
+      float: left;
+      width: 120px;
+      height: 35px;
+      font-size: 14px;
+      color: #666;
+      text-align: center; }
+      .wristlist .wristchange li .mid {
+        border-left: 1px solid #666;
+        border-right: 1px solid #666; }
+      .wristlist .wristchange li p {
+        width: 56px;
+        height: 15px;
+        margin: 0 auto; }
+    .wristlist .wristchange li:hover {
+      color: #000;
+      font-weight: bold; }
+    .wristlist .wristchange li:hover p {
+      border-bottom: 1px solid #000; }
+  .wristlist .tem {
+    width: 1349px;
+    height: 432px;
+    position: relative;
+    overflow: hidden; }
+    .wristlist .tem .imglist {
+      width: 2710px;
+      height: 432px; }
+      .wristlist .tem .imglist li {
+        width: 215px;
+        height: 432px;
+        padding: 0 27px;
+        float: left;
+        color: #1a1a1a;
+        font-size: 15px;
+        text-align: center;
+        border: 1px solid #c3c3c3;
+        background-color: #d1d1d1; }
+        .wristlist .tem .imglist li img {
+          width: 215px;
+          height: 215px;
+          margin-top: 50px; }
+        .wristlist .tem .imglist li p {
+          padding: 20px 0; }
+
+.showbox {
+  width: 1349px; }
+  .showbox .showleft {
+    width: 50%;
+    height: 393px;
+    float: left; }
+    .showbox .showleft img {
+      width: 100%;
+      height: 393px; }
+  .showbox .showright {
+    width: 50%;
+    height: 393px;
+    float: left; }
+    .showbox .showright .righttop {
+      width: 100%;
+      height: 50%; }
+      .showbox .showright .righttop img {
+        width: 100%;
+        height: 100%; }
+    .showbox .showright .rightbuttom {
+      width: 100%;
+      height: 50%; }
+      .showbox .showright .rightbuttom .righttxt {
+        width: 97%;
+        height: 100%;
+        padding-left: 20px;
+        background-color: #1e1e1e;
+        overflow: hidden; }
+        .showbox .showright .rightbuttom .righttxt h2 {
+          font-size: 24px;
+          color: #fff;
+          margin-top: 10px; }
+        .showbox .showright .rightbuttom .righttxt h4 {
+          padding: 7px 0 17px;
+          font-size: 24px;
+          color: #fff; }
+        .showbox .showright .rightbuttom .righttxt p {
+          line-height: 24px;
+          font-size: 14px;
+          color: #a7a7a7; }
+        .showbox .showright .rightbuttom .righttxt .rightbtn {
+          width: 95px;
+          height: 35px;
+          line-height: 35px;
+          font-size: 14px;
+          color: #fff;
+          text-align: center;
+          margin-top: 15px;
+          border: 1px solid #fff;
+          cursor: pointer; }
+
+.newsbox {
+  width: 100%;
+  background-color: #f3f3f3;
+  padding-bottom: 100px; }
+  .newsbox .newslist {
+    width: 1200px;
+    height: 415px;
+    margin: 0 auto; }
+    .newsbox .newslist li {
+      width: 278px;
+      height: 403px;
+      padding: 6px;
+      float: left;
+      margin-right: 10px;
+      background-color: #fff; }
+      .newsbox .newslist li .topimg {
+        width: 278px;
+        height: 206px;
+        overflow: hidden; }
+        .newsbox .newslist li .topimg img {
+          width: 100%;
+          height: 100%; }
+      .newsbox .newslist li .topimg:hover img {
+        transform: scale(1.2); }
+      .newsbox .newslist li h3 {
+        font-size: 16px;
+        line-height: 22px;
+        margin: 20px 0;
+        font-weight: normal; }
+      .newsbox .newslist li .newsbtn {
+        width: 68px;
+        height: 22px;
+        text-align: center;
+        line-height: 22px;
+        margin-top: 100px; }
+        .newsbox .newslist li .newsbtn .morenews {
+          float: left; }
+        .newsbox .newslist li .newsbtn .icon {
+          float: left; }
+          .newsbox .newslist li .newsbtn .icon img {
+            margin-top: 7px; }
+
+.footbox {
+  width: 100%;
+  background-color: #1e1e1e; }
+  .footbox .foottop {
+    width: 1200px;
+    height: 351px;
+    margin: 0 auto;
+    border-bottom: 1px solid #666; }
+    .footbox .foottop .footlist {
+      width: 100%;
+      height: 225px;
+      padding: 65px 0 0 0; }
+      .footbox .foottop .footlist li {
+        width: 155px;
+        height: 194px;
+        margin-right: 45px;
+        float: left; }
+        .footbox .foottop .footlist li h4 {
+          width: 155px;
+          height: 57px;
+          padding: 0 0 12px;
+          font-size: 16px;
+          color: #fff;
+          border-bottom: 1px solid #666; }
+        .footbox .foottop .footlist li .txtlist {
+          width: 155px;
+          height: 100px;
+          margin-top: 15px; }
+          .footbox .foottop .footlist li .txtlist li {
+            width: 155px;
+            height: 25px;
+            color: #8d8c8c;
+            font-size: 14px;
+            cursor: pointer; }
+          .footbox .foottop .footlist li .txtlist li:hover {
+            color: #fff; }
+        .footbox .foottop .footlist li img {
+          margin-bottom: 20px; }
+        .footbox .foottop .footlist li p {
+          text-align: center;
+          line-height: 20px;
+          color: #fff; }
+  .footbox .footshare {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .footbox .footshare .sharebox {
+      width: 100%;
+      height: 44px;
+      margin-top: 28px;
+      color: #ccc; }
+      .footbox .footshare .sharebox span {
+        float: left;
+        font-size: 16px;
+        font-weight: bold; }
+      .footbox .footshare .sharebox img {
+        float: left;
+        margin-left: 10px;
+        margin-right: 180px; }
+      .footbox .footshare .sharebox .dizhi {
+        height: 44px;
+        float: left;
+        margin-left: 50px; }
+        .footbox .footshare .sharebox .dizhi p {
+          line-height: 20px; }
+        .footbox .footshare .sharebox .dizhi span {
+          color: #f2f2f2;
+          font-size: 16px;
+          float: left;
+          margin-right: 10px; }
+      .footbox .footshare .sharebox .last {
+        float: right;
+        font-size: 16px; }
+  .footbox .footlast {
+    width: 100%;
+    height: 54px;
+    background-color: #000; }
+    .footbox .footlast .lastbox {
+      width: 1200px;
+      height: 54px;
+      margin: 0 auto;
+      color: #9999;
+      font-size: 14px;
+      line-height: 54px; }
+      .footbox .footlast .lastbox .lastleft {
+        float: left; }
+      .footbox .footlast .lastbox .lastright {
+        float: right; }
+
+/*# sourceMappingURL=zhuye.css.map */

@@ -1,0 +1,315 @@
+@charset "UTF-8";
+body, p, h1, h2, h3, h4, h5, h6, dl, ol, ul, dd, input, textarea {
+  padding: 0;
+  margin: 0; }
+
+img {
+  vertical-align: top;
+  border: 0; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+body {
+  font-family: "微软雅黑","宋体",Arial;
+  font-size: 12px;
+  color: #000; }
+
+input {
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit; }
+
+textarea {
+  resize: none; }
+
+input:focus, button:focus, textarea:focus, select:focus {
+  outline: none; }
+
+input[type="button"], input[type="reset"], input[type="submit"], input[type="radio"], input[type="checkbox"] {
+  cursor: pointer; }
+
+.sl {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.w {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.cl:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+.cl {
+  zoom: 1; }
+
+.web {
+  width: 100%; }
+  .web .logonav {
+    height: 130px;
+    width: 1200px;
+    margin: auto;
+    text-align: center; }
+    .web .logonav .nav {
+      width: 100%;
+      height: 25px;
+      text-align: center;
+      line-height: 25px;
+      font-size: 15px;
+      padding-bottom: 17px; }
+      .web .logonav .nav li {
+        height: 25px;
+        float: left;
+        padding: 0 35px;
+        border-right: 1px solid #a5a5a5;
+        cursor: pointer; }
+      .web .logonav .nav li:hover {
+        font-weight: bolder; }
+      .web .logonav .nav .lastli {
+        border: none;
+        color: #996739;
+        font-weight: bold; }
+
+.topbox {
+  width: 100%;
+  margin-top: 70px; }
+  .topbox .addresstop {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 15px; }
+    .topbox .addresstop h1 {
+      height: 30px;
+      padding: 15px 0; }
+    .topbox .addresstop p {
+      height: 15px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid #cacaca; }
+
+.midbox {
+  width: 100%; }
+  .midbox .addressmid {
+    width: 1185px;
+    margin: 0 auto;
+    padding-left: 15px;
+    background-color: #fbfbfb;
+    border-bottom: 1px solid #cacaca; }
+    .midbox .addressmid ul {
+      width: 1200px;
+      height: 100px;
+      padding: 15px 0;
+      font-size: 13px; }
+      .midbox .addressmid ul .username {
+        width: 1200px;
+        height: 50px;
+        line-height: 50px; }
+        .midbox .addressmid ul .username .name {
+          float: left;
+          width: 70px;
+          font-size: 16px;
+          font-weight: bold; }
+        .midbox .addressmid ul .username .tel {
+          float: left;
+          width: 520px; }
+        .midbox .addressmid ul .username .addbtn {
+          float: left;
+          width: 200px;
+          height: 30px;
+          text-align: center;
+          line-height: 30px;
+          margin-top: 18px;
+          background-color: #eeae71;
+          border-radius: 3px;
+          cursor: pointer;
+          border: 1px solid silver; }
+      .midbox .addressmid ul .usermsg {
+        width: 1200px;
+        height: 50px;
+        line-height: 50px; }
+        .midbox .addressmid ul .usermsg p {
+          float: left;
+          width: 590px; }
+        .midbox .addressmid ul .usermsg .bianji {
+          float: left;
+          width: 95px;
+          height: 20px;
+          font-size: 12px;
+          margin-top: 17px;
+          text-align: center;
+          line-height: 20px;
+          border-radius: 3px;
+          cursor: pointer;
+          background-color: #e4e4e4; }
+        .midbox .addressmid ul .usermsg .del {
+          float: left;
+          width: 95px;
+          height: 20px;
+          font-size: 12px;
+          margin-left: 12px;
+          margin-top: 17px;
+          text-align: center;
+          line-height: 20px;
+          border-radius: 3px;
+          cursor: pointer;
+          background-color: #e4e4e4; }
+
+.botbox {
+  width: 100%;
+  padding: 40px 0; }
+  .botbox .addressbot {
+    width: 1200px;
+    margin: 0 auto; }
+    .botbox .addressbot ul {
+      width: 1200px; }
+      .botbox .addressbot ul h1 {
+        padding-bottom: 10px; }
+      .botbox .addressbot ul li {
+        padding: 10px 0; }
+        .botbox .addressbot ul li p {
+          height: 20px;
+          font-weight: bold;
+          font-size: 14px;
+          padding-bottom: 10px; }
+        .botbox .addressbot ul li input {
+          height: 15px;
+          width: 450px;
+          padding: 5px 10px; }
+        .botbox .addressbot ul li select {
+          width: 120px;
+          height: 30px;
+          margin-right: 15px; }
+        .botbox .addressbot ul li .addressbtn {
+          width: 100px;
+          height: 30px;
+          margin-left: 370px;
+          background-color: #eeae71;
+          outline: none;
+          cursor: pointer; }
+
+.footbox {
+  width: 100%;
+  background-color: #1e1e1e; }
+  .footbox .foottop {
+    width: 1200px;
+    height: 351px;
+    margin: 0 auto;
+    border-bottom: 1px solid #666; }
+    .footbox .foottop .footlist {
+      width: 100%;
+      height: 225px;
+      padding: 65px 0 0 0; }
+      .footbox .foottop .footlist li {
+        width: 155px;
+        height: 194px;
+        margin-right: 45px;
+        float: left; }
+        .footbox .foottop .footlist li h4 {
+          width: 155px;
+          height: 57px;
+          padding: 0 0 12px;
+          font-size: 16px;
+          color: #fff;
+          border-bottom: 1px solid #666; }
+        .footbox .foottop .footlist li .txtlist {
+          width: 155px;
+          height: 100px;
+          margin-top: 15px; }
+          .footbox .foottop .footlist li .txtlist li {
+            width: 155px;
+            height: 25px;
+            color: #8d8c8c;
+            font-size: 14px;
+            cursor: pointer; }
+          .footbox .foottop .footlist li .txtlist li:hover {
+            color: #fff; }
+        .footbox .foottop .footlist li img {
+          margin-bottom: 20px; }
+        .footbox .foottop .footlist li p {
+          text-align: center;
+          line-height: 20px;
+          color: #fff; }
+  .footbox .footshare {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .footbox .footshare .sharebox {
+      width: 100%;
+      height: 44px;
+      margin-top: 28px;
+      color: #ccc; }
+      .footbox .footshare .sharebox span {
+        float: left;
+        font-size: 16px;
+        font-weight: bold; }
+      .footbox .footshare .sharebox img {
+        float: left;
+        margin-left: 10px;
+        margin-right: 180px; }
+      .footbox .footshare .sharebox .dizhi {
+        height: 44px;
+        float: left;
+        margin-left: 50px; }
+        .footbox .footshare .sharebox .dizhi p {
+          line-height: 20px; }
+        .footbox .footshare .sharebox .dizhi span {
+          color: #f2f2f2;
+          font-size: 16px;
+          float: left;
+          margin-right: 10px; }
+      .footbox .footshare .sharebox .last {
+        float: right;
+        font-size: 16px; }
+  .footbox .footlast {
+    width: 100%;
+    height: 54px;
+    background-color: #000; }
+    .footbox .footlast .lastbox {
+      width: 1200px;
+      height: 54px;
+      margin: 0 auto;
+      color: #9999;
+      font-size: 14px;
+      line-height: 54px; }
+      .footbox .footlast .lastbox .lastleft {
+        float: left; }
+      .footbox .footlast .lastbox .lastright {
+        float: right; }
+
+.shadowbox {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  display: none; }
+  .shadowbox .shadow {
+    width: 340px;
+    height: 100px;
+    padding: 50px 30px;
+    background-color: #dddddd;
+    position: absolute;
+    left: 505px;
+    top: 150px;
+    border-radius: 10px; }
+    .shadowbox .shadow #shadowtxt {
+      text-align: center;
+      line-height: 20px;
+      font-size: 15px; }
+    .shadowbox .shadow #shadowbtn {
+      width: 70px;
+      height: 30px;
+      margin-left: 250px;
+      margin-top: 70px;
+      background-color: #b6d3fa; }
+
+/*# sourceMappingURL=address.css.map */

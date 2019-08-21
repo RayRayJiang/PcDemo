@@ -1,0 +1,361 @@
+@charset "UTF-8";
+body, p, h1, h2, h3, h4, h5, h6, dl, ol, ul, dd, input, textarea {
+  padding: 0;
+  margin: 0; }
+
+img {
+  vertical-align: top;
+  border: 0; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+body {
+  font-family: "微软雅黑","宋体",Arial;
+  font-size: 12px;
+  color: #000; }
+
+input {
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit; }
+
+textarea {
+  resize: none; }
+
+input:focus, button:focus, textarea:focus, select:focus {
+  outline: none; }
+
+input[type="button"], input[type="reset"], input[type="submit"], input[type="radio"], input[type="checkbox"] {
+  cursor: pointer; }
+
+.sl {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.w {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.cl:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+.cl {
+  zoom: 1; }
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+#content {
+  width: 500px;
+  height: 37px;
+  margin: 100px auto;
+  text-align: center;
+  line-height: 37px; }
+
+#content span {
+  width: 60px;
+  height: 37px;
+  float: left;
+  margin: 0 10px;
+  border-radius: 3px;
+  border: 1px solid #888888;
+  background-color: #fff;
+  color: #888888;
+  cursor: pointer; }
+
+#content span.disabled {
+  background-color: #c7c7c7; }
+
+.page-content {
+  height: 37px;
+  float: left;
+  margin: 0 4px; }
+
+.page-content li {
+  width: 37px;
+  height: 37px;
+  font-size: 16px;
+  float: left;
+  margin: 0 10px;
+  border-radius: 3px;
+  border: 1px solid #888888;
+  background-color: #fff;
+  color: #888888;
+  cursor: pointer; }
+
+.page-content li.active {
+  background-color: #000;
+  color: #fff; }
+
+.loginhead {
+  width: 100%;
+  background-color: #121212; }
+  .loginhead .toplogin {
+    height: 33px;
+    width: 1200px;
+    margin: auto; }
+    .loginhead .toplogin .loginleft {
+      width: 33px;
+      height: 33px;
+      float: left; }
+    .loginhead .toplogin .logintxt {
+      width: 150px;
+      height: 33px;
+      color: #fff;
+      font-size: 16px;
+      text-align: center;
+      line-height: 33px;
+      float: left;
+      margin-left: 900px;
+      cursor: pointer; }
+    .loginhead .toplogin .loginright {
+      width: 90px;
+      height: 33px;
+      float: right;
+      line-height: 33px;
+      font-size: 14px;
+      color: #fff; }
+      .loginhead .toplogin .loginright .language {
+        float: left; }
+      .loginhead .toplogin .loginright .shopcartion {
+        height: 33px;
+        float: left;
+        margin-left: 15px; }
+        .loginhead .toplogin .loginright .shopcartion img {
+          width: 15px;
+          height: 15px;
+          margin-top: 8px; }
+
+.web {
+  width: 100%;
+  background-color: #fff; }
+  .web .logonav {
+    height: 130px;
+    width: 1200px;
+    margin: auto;
+    text-align: center; }
+    .web .logonav .nav {
+      width: 100%;
+      height: 25px;
+      text-align: center;
+      line-height: 25px;
+      font-size: 15px;
+      padding-bottom: 17px; }
+      .web .logonav .nav li {
+        height: 25px;
+        float: left;
+        padding: 0 35px;
+        border-right: 1px solid #a5a5a5;
+        cursor: pointer; }
+      .web .logonav .nav li:hover {
+        font-weight: bolder; }
+      .web .logonav .nav .lastli {
+        border: none;
+        color: #996739;
+        font-weight: bold; }
+
+.banner {
+  width: 100%;
+  height: 640px;
+  position: relative;
+  overflow: hidden;
+  top: 20px; }
+  .banner img {
+    position: absolute;
+    left: 50%;
+    margin-left: -950px; }
+
+.bannext {
+  width: 100%;
+  border-bottom: 1px solid #acacac; }
+  .bannext .nextbox {
+    width: 1200px;
+    height: 90px;
+    margin: 0 auto; }
+    .bannext .nextbox .txtleft {
+      width: 72px;
+      height: 90px;
+      float: left;
+      font-size: 24px;
+      color: #0b0b0b;
+      text-align: center;
+      line-height: 90px; }
+    .bannext .nextbox .txtright {
+      width: 72px;
+      height: 90px;
+      float: right;
+      font-size: 14px;
+      color: #939393;
+      text-align: center;
+      line-height: 90px; }
+
+.chaxun {
+  width: 100%;
+  padding-top: 30px;
+  background-color: #f0f0f0; }
+  .chaxun .chaxunbox {
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto; }
+    .chaxun .chaxunbox input {
+      margin-left: 20px;
+      width: 15px;
+      height: 15px; }
+    .chaxun .chaxunbox span {
+      margin-left: 5px;
+      font-size: 14px; }
+    .chaxun .chaxunbox #serach {
+      width: 150px;
+      height: 30px;
+      margin-left: 350px; }
+    .chaxun .chaxunbox #chabtn {
+      width: 70px;
+      height: 31px;
+      margin-left: 10px;
+      background-color: #252525;
+      color: #fff; }
+
+.goodsbox {
+  width: 100%;
+  background-color: #f0f0f0; }
+  .goodsbox .goodslist {
+    width: 1200px;
+    margin: 0 auto; }
+    .goodsbox .goodslist .goods {
+      width: 386px;
+      height: 560px;
+      float: left;
+      text-align: center;
+      margin: 3px 2px;
+      border: 5px solid #e4e4e4;
+      background-color: #fff; }
+      .goodsbox .goodslist .goods li {
+        width: 330px;
+        height: 330px;
+        margin: 50px 25px 25px; }
+        .goodsbox .goodslist .goods li img {
+          width: 100%;
+          width: 100%; }
+      .goodsbox .goodslist .goods p {
+        font-size: 16px;
+        color: #333333;
+        line-height: 16px;
+        padding: 5px; }
+      .goodsbox .goodslist .goods b {
+        display: inline-block;
+        font-size: 20px;
+        color: #333333;
+        margin-top: 20px; }
+    .goodsbox .goodslist #goods:hover {
+      border-color: #939393; }
+
+.pagebox {
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 5px 0 20px 0; }
+
+.footbox {
+  width: 100%;
+  background-color: #1e1e1e; }
+  .footbox .foottop {
+    width: 1200px;
+    height: 351px;
+    margin: 0 auto;
+    border-bottom: 1px solid #666; }
+    .footbox .foottop .footlist {
+      width: 100%;
+      height: 225px;
+      padding: 65px 0 0 0; }
+      .footbox .foottop .footlist li {
+        width: 155px;
+        height: 194px;
+        margin-right: 45px;
+        float: left; }
+        .footbox .foottop .footlist li h4 {
+          width: 155px;
+          height: 57px;
+          padding: 0 0 12px;
+          font-size: 16px;
+          color: #fff;
+          border-bottom: 1px solid #666; }
+        .footbox .foottop .footlist li .txtlist {
+          width: 155px;
+          height: 100px;
+          margin-top: 15px; }
+          .footbox .foottop .footlist li .txtlist li {
+            width: 155px;
+            height: 25px;
+            color: #8d8c8c;
+            font-size: 14px;
+            cursor: pointer; }
+          .footbox .foottop .footlist li .txtlist li:hover {
+            color: #fff; }
+        .footbox .foottop .footlist li img {
+          margin-bottom: 20px; }
+        .footbox .foottop .footlist li p {
+          text-align: center;
+          line-height: 20px;
+          color: #fff; }
+  .footbox .footshare {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .footbox .footshare .sharebox {
+      width: 100%;
+      height: 44px;
+      margin-top: 28px;
+      color: #ccc; }
+      .footbox .footshare .sharebox span {
+        float: left;
+        font-size: 16px;
+        font-weight: bold; }
+      .footbox .footshare .sharebox img {
+        float: left;
+        margin-left: 10px;
+        margin-right: 180px; }
+      .footbox .footshare .sharebox .dizhi {
+        height: 44px;
+        float: left;
+        margin-left: 50px; }
+        .footbox .footshare .sharebox .dizhi p {
+          line-height: 20px; }
+        .footbox .footshare .sharebox .dizhi span {
+          color: #f2f2f2;
+          font-size: 16px;
+          float: left;
+          margin-right: 10px; }
+      .footbox .footshare .sharebox .last {
+        float: right;
+        font-size: 16px; }
+  .footbox .footlast {
+    width: 100%;
+    height: 54px;
+    background-color: #000; }
+    .footbox .footlast .lastbox {
+      width: 1200px;
+      height: 54px;
+      margin: 0 auto;
+      color: #9999;
+      font-size: 14px;
+      line-height: 54px; }
+      .footbox .footlast .lastbox .lastleft {
+        float: left; }
+      .footbox .footlast .lastbox .lastright {
+        float: right; }
+
+/*# sourceMappingURL=list.css.map */
